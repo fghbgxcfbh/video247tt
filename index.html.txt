@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Amar Page</title>
+  <style>
+    body {
+      background: #111;
+      color: white;
+      text-align: center;
+      font-family: Arial;
+      padding-top: 40px;
+    }
+    img {
+      max-width: 90%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    a {
+      display: inline-block;
+      background: red;
+      color: white;
+      padding: 12px 25px;
+      margin: 8px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <img id="gif" src="gifs/1.gif">
+
+  <br>
+
+  <a href="https://videohub69.github.io/iconic/" target="_blank">লিংক ১</a>
+  <a href="https://drugstoregroan.com/n2i8y1ja?key=177370d793a384e27e328a7ce7fb7877" target="_blank">লিংক ২</a>
+
+  <script>
+    var gifs = ["gifs/1.gif", "gifs/2.gif", "gifs/3.gif", "gifs/4.gif"];
+    var random = gifs[Math.floor(Math.random() * gifs.length)];
+    document.getElementById("gif").src = random;
+  </script>
+
+</body>
+</html>
